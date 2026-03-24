@@ -1,3 +1,5 @@
 Rohit Bhamare
 -------------
-This repository marks my first step into the world of GitHub and version control. It contains a simple text file as I learn the basics of creating repositories, uploading files, and managing projects. I’m excited to continue building, experimenting, and improving my skills through future updates and projects.
+This repository marks my first step into the world of GitHub and version control. 
+It contains a simple text file as I learn the basics of creating repositories, uploading files, and managing projects. 
+I’m excited to continue building, experimenting, and improving my skills through future updates and projects.
