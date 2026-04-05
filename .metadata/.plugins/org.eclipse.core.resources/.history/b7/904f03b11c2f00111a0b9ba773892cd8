@@ -1,0 +1,7 @@
+import day7.bank.ATMCard;
+
+public class ATM {
+	public void transaction(ATMCard card , int amt ) {
+		card.withdraw(amt);
+	}
+}

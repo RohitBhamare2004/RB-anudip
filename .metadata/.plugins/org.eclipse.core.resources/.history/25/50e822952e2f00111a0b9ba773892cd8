@@ -1,0 +1,19 @@
+package day9;
+
+import java.util.Vector;
+
+public class Task2_Vector {
+public static void main(String[] args) {
+		
+		Vector<Integer> A = new Vector<Integer>();
+		A.add(20);
+		A.add(10);
+		A.add(15);
+		A.add(40);
+		A.add(30);
+		
+		System.out.println(A);
+		A.remove(2);
+		System.out.println(A);
+	}
+}

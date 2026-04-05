@@ -1,0 +1,13 @@
+package day7.zoo;
+
+public class Rabbit implements Animal {
+	public void eat() {
+		System.out.println("lion eats carrots");
+	}
+
+	
+	public void sleep() {
+		System.out.println("Lion sleep in the burrow");
+		
+	}
+}

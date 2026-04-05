@@ -1,0 +1,48 @@
+package day10;
+
+public class Emp {
+	int eid ;
+	String ename;
+	String design;
+	int totalExperience ;
+	double salary ;
+	
+	
+	@Override
+	public String toString() {
+		return "Emp [eid=" + eid + ", ename=" + ename + ", design=" + design + ", totalExperience=" + totalExperience
+				+ ", salary=" + salary + "]";
+	}
+	public int getEid() {
+		return eid;
+	}
+	public void setEid(int eid) {
+		this.eid = eid;
+	}
+	public String getEname() {
+		return ename;
+	}
+	public void setEname(String ename) {
+		this.ename = ename;
+	}
+	public String getDesign() {
+		return design;
+	}
+	public void setDesign(String design) {
+		this.design = design;
+	}
+	public int getTotalExperience() {
+		return totalExperience;
+	}
+	public void setTotalExperience(int totalExperience) {
+		this.totalExperience = totalExperience;
+	}
+	public double getSalary() {
+		return salary;
+	}
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+		
+	
+}

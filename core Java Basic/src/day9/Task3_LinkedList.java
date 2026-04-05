@@ -1,0 +1,22 @@
+package day9;
+
+import java.util.LinkedList;
+
+public class Task3_LinkedList {
+	
+public static void main(String[] args) {
+		
+		LinkedList<Integer> A = new LinkedList<Integer>();
+		A.add(50);
+		A.add(95);
+		A.add(60);
+		A.add(10);
+		A.add(80);
+		A.add(80);
+		
+	
+		System.out.println(A);
+		A.remove(2);
+		System.out.println(A);
+	}
+}

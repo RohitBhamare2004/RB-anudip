@@ -1,0 +1,40 @@
+//1] Create a user defined data type for representing real world object student in java world 
+//Create two student object Ram and Sham with their values and display values.
+
+package day2;
+
+public class Task1 {
+	
+	static class Student{
+		 String name ;
+		 int age;
+		 String course ;
+		 int fees;
+
+		@Override
+		public String toString() {
+			return "Student [name=" + name + ", age=" + age + ", course=" + course + ", fees=" + fees + "]";
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		Student stud1 = new Student();
+		stud1.name = "Ram";
+		stud1.age = 20;
+		stud1.course = "Core Java";
+		stud1.fees = 30000;
+		
+		Student stud2 = new Student();
+		stud2.name = "Sham";
+		stud2.age = 21;
+		stud2.course = "Adv Java";
+		stud2.fees = 40000;
+		
+		System.out.println(stud1);
+		System.out.print(stud2);
+	}
+
+
+
+}

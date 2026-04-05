@@ -1,0 +1,31 @@
+//Implementation of all DATATYPES
+package day2;
+
+public class Task4 {
+	public static void main(String[] args) {
+		//primitive datatype
+		
+		//Numeric Data
+		byte b = 10; //-128 to    +127
+		short s = 200;
+		int i = 3075347;
+		long  l = 604563210;
+		
+		System.out.println(b);
+		System.out.println(s);
+		System.out.println(i);
+		System.out.println(l);
+		
+		float f = 99.9f;
+		double d = 3.14159265359;
+		System.out.println(f);
+		System.out.println(d);
+	
+		
+		//what is varibale
+		//named memory loc..which is used to store some
+		//value
+		
+		
+	}
+}

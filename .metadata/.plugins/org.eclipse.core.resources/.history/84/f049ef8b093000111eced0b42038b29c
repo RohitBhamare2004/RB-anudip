@@ -1,0 +1,30 @@
+package day10;
+
+public class Emp {
+	int eid ;
+	String ename;
+	String design;
+	int totalExperience ;
+	double salary ;
+	
+	//constructor
+	public Emp(int eid, String ename, String design, int totalExperience, double salary) {
+		super();
+		this.eid = eid;
+		this.ename = ename;
+		this.design = design;
+		this.totalExperience = totalExperience;
+		this.salary = salary;
+	}
+
+	@Override
+	public String toString() {
+		return "Emp [eid=" + eid + ", ename=" + ename + ", design=" + design + ", totalExperience=" + totalExperience
+				+ ", salary=" + salary + "]";
+	}
+	
+	
+	
+		
+	
+}

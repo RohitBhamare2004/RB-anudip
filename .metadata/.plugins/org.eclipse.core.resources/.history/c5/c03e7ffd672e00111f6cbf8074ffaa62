@@ -1,0 +1,7 @@
+package day7.bank;
+
+public class HDFC implements Bank{
+	public void withdraw() {
+		System.out.println("Withdraw From HDFC");
+	}
+}

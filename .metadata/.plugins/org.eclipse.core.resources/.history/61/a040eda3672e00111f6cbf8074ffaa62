@@ -1,0 +1,16 @@
+package day7.bank;
+
+public class Main {
+	public static void main(String[] args) {
+		Bank b;
+		
+		b = new HDFC;
+		b.withdraw();
+		
+		b = new SBI();
+		b.withdraw();
+		
+		b = new ICICI;
+		b.withdraw();
+	}
+}

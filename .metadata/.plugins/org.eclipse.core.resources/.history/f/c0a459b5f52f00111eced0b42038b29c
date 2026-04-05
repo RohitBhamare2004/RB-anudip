@@ -1,0 +1,14 @@
+package day10;
+
+import java.util.ArrayList;
+
+public class EmpMain {
+	public static void main(String[] args) {
+		ArrayList<Emp> list = new ArrayList<Emp>() ;
+		list.add(new Emp(1,"Raja" , "Manager" , 4 , 50000));
+		list.add(new Emp(2,"Ravi" , "Developer" , 5 , 40000));
+		list.add(new Emp(3,"Amit" , "Tester" , 2 , 30000));
+		list.add(new Emp(4,"Neha" , "HR" , 6 , 50000));
+		list.add(new Emp(5,"Om" , "Team Lead" , 3 , 30000));
+	}
+}

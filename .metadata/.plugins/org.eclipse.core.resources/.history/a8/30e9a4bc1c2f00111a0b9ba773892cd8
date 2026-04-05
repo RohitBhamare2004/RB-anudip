@@ -1,0 +1,15 @@
+package day7.zoo;
+
+public class Lion implements Animal{
+	@Override
+	public void eat() {
+		System.out.println("lion eats meat");
+	}
+
+	@Override
+	public void sleep() {
+		System.out.println("Lion sleep in the den");
+		
+	}
+	
+}

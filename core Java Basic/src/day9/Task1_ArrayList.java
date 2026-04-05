@@ -1,0 +1,22 @@
+package day9;
+
+import java.util.ArrayList;
+
+public class Task1_ArrayList {
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> A = new ArrayList<Integer>();
+		A.add(20);
+		A.add(10);
+		A.add(15);
+		A.add(40);
+		A.add(30);
+		A.add(30);
+		
+		System.out.println(A);
+		A.remove(2);
+		System.out.println(A);
+	}
+
+
+}

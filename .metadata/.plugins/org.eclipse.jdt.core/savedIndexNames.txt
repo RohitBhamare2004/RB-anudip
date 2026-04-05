@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+D:\Rohit Folder\Anudip Foundation course\.metadata\.plugins\org.eclipse.jdt.core
+4081544200.index
+1288848795.index
+1865797976.index

@@ -1,0 +1,52 @@
+package day10;
+
+import java.util.ArrayList;
+
+public class EmpMain {
+	public static void applyHike(Emp emp) {
+		double sal = emp.getSalary();
+		double hike = 0;
+		
+		//based on experience 
+		if(emp.getTotalExperience() >= 5) {
+			hike = (sal*0.10) + hike; 
+		}
+		else if(emp.getTotalExperience()<5 && emp.getTotalExperience()>=2) {
+			hike = (sal*0.05)+hike;
+		}
+		
+		//based on designation
+		if(emp.getDesign().equalsIgnoreCase("developer")) {
+			hike = (sal*0.15)+hike;
+		}
+		
+		emp.setSalary(sal + hike);
+	
+	}
+	
+		
+	
+	public static void main(String[] args) {
+		ArrayList<Emp> list = new ArrayList<Emp>() ;
+		
+		Emp e1 = new Emp(1,"Raja" , "Manager" , 4 , 50000);
+		Emp e2 = new Emp(2,"Ravi" , "Developer" , 5 , 40000);
+		Emp e3 = new Emp(3,"Amit" , "Tester" , 2 , 30000);
+		Emp e4 = new Emp(4,"Neha" , "HR" , 6 , 50000);
+		Emp e5 = new Emp(5,"Om" , "Team Lead" , 3 , 30000);
+		
+		list.add(e1);
+		list.add(e2);
+		list.add(e3);
+		list.add(e4);
+		list.add(e5);
+		
+		System.out.println("============OG Records===========");
+		for (Emp e : list) {
+			System.out.println(e);
+		}
+		
+		System.out.println("============Update salary based on exp :  Records===========");
+				
+	}
+}
